@@ -1,105 +1,205 @@
+<!DOCTYPE html>
 <html>
-<title>Buy Time!</title>
-<head>
-<h1 ALIGN="CENTER">BuyTime.com! Where you can buy the time of your life!</h1>
-</head>
+  <head>
+    <meta charset="utf-8">
+    <title>BuyTime.com</title>
+    <link rel="stylesheet" href="http://twitter.github.com/bootstrap/1.4.0/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+    <script src="http://twitter.github.com/bootstrap/1.4.0/bootstrap-modal.js"></script>
+    <script>
+$(document).ready(function() {
+  $("#modal-from-dom").bind('show', function() {
+    var name = $("#name").val();
+    $("#name_header").text("Hello, " + name);
+  });
+});
+     </script>
+   </head>
+   
+   <body>
 
-<body bgcolor="tan">
-<br>
-<br>
-<FORM METHOD="LINK" ACTION="">
-<INPUT TYPE="submit" VALUE="Buy Time!">
-</FORM>
-<br>
-<br>
-<h2 ALIGN="CENTER">What is BuyTime.com?</h2>
-<br>
-<br>
-<p ALIGN="CENTER">BuyTime.com is an online collection of time:
+   <div id="modal-from-dom" class="modal hide fade">
+     <div class="modal-header">
+       <a href="#" class="close">&times;</a>
+       <h3 id="name_header"></h3>
+     </div>
+
+     <div class="modal_body">
+       <p>Login process not coded at this time.</p>
+     </div>
+     
+     <div class="modal-footer">
+       <a href="projecthomepage.html" class="btn primary">Home</a>
+       <a href="project.html" class="btn secondary">About/Q&A</a>
+     </div>
+
+   </div>
+
+   <div class="container">
+     <label>login name?:</label>
+     <input id="name" type="text" />
+     <button data-controls-modal="modal-from-dom"
+     	     data-backdrop="true"
+	     data-keyboard="true"
+	     class="btn danger">Log In</button>
+     <button data-controls-modal="modal-from-dom"
+     	     data-backdrop="true"
+	     data-keyboard="true"
+	     class="btn danger">Don't remember login?</button>
+     
+     <ul class="pills">
+       <li class="active"><a href="projecthomepage.html">Home</a></li>
+       <li><a href="project.html">About Us/Q&A</a></li>
+     </ul>
+
+     <br>
+     <br>
+     <br>
+
+     <h1 ALIGN="CENTER">Welcome to BuyTime.com, where you can buy the time of your life!</h1>
+
+     <div class="row">
+       <div style="text-align:center">
+       <button data-controls-modal="modal-from-dom"
+       	       data-backdrop="true"
+	       data-keyboard="true"
+	       class="btn default">Home</button>
+       <button data-controls-modal="modal-from-dom"
+       	       data-backdrop="true"
+	       data-keyboard="true"
+	       class="btn default">About Us/Q&A</button>
+     </div>
+
+     <br>
+     <br>
+     <br>
+
+     <div class="row">
+       <div style="text-align:center">
+
+       <h2>What is BuyTime.com?</h2>
+
+     <br>
+     <br>
+     <p>BuyTime.com is an online collection of time:
 every hour, minute, and second of the past has been collected by our professional staff,
-<br>
+     <br>
 and now, for the first time ever, our collection of time is being sold to the public.
-<br>
+     <br>
 On Buytime.com, you can either pay a sum of money to have time added on to your life,
 or you can trade valuable hours of your life for money.
-<br>
+     <br>
 Here at BuyTime.com, our motto is: "We've got the keys of time.
 Come and take them from us!"
-</p>
-<br>
-<br>
-<br>
-<h2 ALIGN="CENTER">Why use BuyTime.com?</h2>
-<br>
-<br>
-<p ALIGN="CENTER">You've wasted your life.  You had ambition, but gradually,
+     </p>
+     </div>
+
+     <br>
+     <br>
+     <br>
+
+     <div class="row"
+       <div style="text-align:center">
+
+     <h2>Why use BuyTime.com?</h2>
+
+     <br>
+     <br>
+     <p>You've wasted your life.  You had ambition, but gradually,
 a mind-numbing, dead-end job helped burn that away.  You're running out of time!
-<br>
+     <br>
 What's the solution? Buy some more! That's right! Just imagine it:
-<br>
+     <br>
 An extra two weeks to get that Twitter Bootstrap project done,
 an extra two months to get in shape,
 or an extra two years to spend with your family before you die!
-<br>
+     <br>
 Buy our time! It's not inferior time.  It's good, quality time:
 Summer Evenings, Eventful Mornings, Classic Winters.
-We own the time of your life!</p>
-<br>
-<br>
-<h2 ALIGN="CENTER">How much does Time cost?</h2>
-<br>
-<br>
-<p ALIGN="CENTER">We're selling 3 hours for $25,
+We own the time of your life!
+     </p>
+     </div>
+
+     <br>
+     <br>
+     <br>
+
+     <div class="row">
+       <div style="text-align:center">
+
+     <h2>How much does Time cost?</h2>
+     <br>
+     <br>
+     <p>We're selling 3 hours for $25,
 but the price of buying is $50.
 That's $25 for the time, and an additional $50 for the buying of it.
-<br>
+     <br>
 But that's not all! You'll also need to pay a one-time fee
 of $100 for us to accept the transaction, with a $90 booking fee,
 plus postage and packing, which varies with the cost of inflation.
-<br>
+     <br>
 Also, our trained professionals are here to give you counseling
 to determine whether our product is right for you,
 at the price of an additional $88.92.
-<br>
+     <br>
 You'd have to be stupid to not take advantage of this wonderful deal!
-</p>
-<br>
-<br>
-<h2 ALIGN="CENTER">Still aren't convinced that our product works? 
+     </p>
+     </div>
+
+     <br>
+     <br>
+     <br>
+
+     <div class="row">
+       <div style="text-align:center">
+
+     <h2>Still aren't convinced that our product works? 
 Read these Testimonials:</h2>
-<br>
-<br>
-<p ALIGN="CENTER">"I bought five years, and i've never felt better! 
+     <br>
+     <br>
+     <p>"I bought five years, and i've never felt better! 
 My back pain healed up, and my wife came back to life.
-<br>
+     <br>
 Since then, i've bought a couple of decades,
 and wouldn't you know it? I'm back at my peak! - Gavin (Westchester, UK)
-</p>
-<br>
-<p ALIGN="CENTER">"After wasting my youth, I was melting away in a deskjob,
+     </p>
+
+     <br>
+     <br>
+     <p>"After wasting my youth, I was melting away in a deskjob,
 with my hair becoming more gray by the week.  
-<br>
+     <br>
 I bought thirty years, and now I'm a virgin again, with plenty of ambition!"
  - Jane (Chicago, Ill.)
-</p>
-<br>
-<br>
-<br>
-<h2 ALIGN="CENTER">STILL not convinced?:</h2>
-<br>
-<br>
-<p ALIGN="CENTER">Look! You'd have to be stupid not to get in on this deal!
+     </p>
+     </div>
+
+     <br>
+     <br>
+     <br>
+
+     <div class="row">
+       <div style="text-align:center">
+
+
+     <h2>STILL not convinced?:</h2>
+     <br>
+     <br>
+     <p>Look! You'd have to be stupid not to get in on this deal!
 You'll have THE TIME OF YOUR LIFE!!!
-<br>
+     <br>
 Here's our phone number!
 You will ring it! And we'll get you in on this unmissable deal!
-</p>
-<br>
-<br>
-<h2 ALIGN="CENTER">The BuyTime telephone number:</h2>
-<br>
-<p ALIGN="CENTER">1-800-BUY-TIME</p>
+     </p>
+     <br>
+     <br>
+     <h2>The BuyTime telephone number:</h2>
+     <br>
+     <p>1-800-BUY-TIME
+     </p>
 
+     </div>
+   </div>
 </body>
 </html>
 
